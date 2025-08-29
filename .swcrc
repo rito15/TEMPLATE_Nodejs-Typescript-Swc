@@ -1,0 +1,22 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    },
+    "target": "esnext", // tsconfig.json의 "target"과 유사
+    "keepClassNames": true
+  },
+  "module": {
+    "type": "commonjs" // tsconfig.json의 "module"과 유사
+  },
+  "sourceMaps": true, // 소스맵 생성 여부
+  "minify": false // 코드 압축(minify) 여부
+}

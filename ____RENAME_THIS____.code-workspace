@@ -1,0 +1,84 @@
+{
+    "folders": [
+        {
+            "name": "┌──────────",
+            "path": ".temp/.a"
+        },
+        {
+            "name": "├─   📜  Document",
+            "path": "./docs"
+        },
+        {
+            "name": "├─   📦  Resource",
+            "path": "./resource"
+        },
+        {
+            "name": "├─   🐋  Docker",
+            "path": "./docker"
+        },
+        {
+            "name": "├─   🚀  Deploy",
+            "path": "./deploy"
+        },
+        {
+            "name": "├─   📝  Shell",
+            "path": "./sh"
+        },
+        {
+            "name": "├─   🍀  Test",
+            "path": "./test"
+        },
+        {
+            "name": "├─   🛠️  Tool",
+            "path": "./tool"
+        },
+        {
+            "name": "├─   ⭐  Script ",
+            "path": "./src"
+        },
+        {
+            "name": "├──────────",
+            "path": ".temp/.b"
+        },
+        {
+            "name": "├─   🌱  Root ",
+            "path": "."
+        },
+        {
+            "name": "└──────────",
+            "path": ".temp/.c"
+        },
+    ],
+    "settings": {
+        // "typescript.tsdk": "node_modules/typescript/lib", // 프로젝트별로 설치된 타입스크립트 버전을 사용 => import 제대로 추천 안되는 버그 존재
+        "typescript.preferences.importModuleSpecifier"         : "relative",   // 상대경로로 import
+        "typescript.updateImportsOnFileMove.enabled"           : "always",     // 파일 이동시 import 경로 자동 수정
+        // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,         // 함수 반환 타입을 명시하지 않더라도 표시
+        "typescript.preferences.quoteStyle"                    : "double",     // 문자열 따옴표를 더블로 사용
+        "typescript.suggest.autoImports"                       : true,         // 코드 작성 중 필요한 모듈을 자동으로 임포트
+        // "editor.codeActionsOnSave": {
+        //     "source.removeUnusedImports": "explicit", // 코드 저장 시, 사용하지 않는 import 제거
+        // },
+        "files.autoSave": "onFocusChange",
+        "editor.tabSize": 4,
+        "git.autofetch" : true,
+        "git.mergeEditor": true,
+    },
+    "extensions": {
+        "recommendations": [
+            "maptz.regionfolder",
+            "alefragnani.Bookmarks",
+            "alefragnani.project-manager",
+            "agruntfuggly.todo-tree",
+            "eamodio.gitlens",
+            "mhutchie.git-graph",
+            "ms-vscode-remote.remote-ssh",
+            "fractalbrew.backticks",
+            "usernamehw.errorlens",
+            "aaron-bond.better-comments",
+            "chouzz.vscode-better-align",
+            "qufiwefefwoyn.inline-sql-syntax",
+            "gruntfuggly.todo-tree"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+# Git
+.git*
+
+# Node
+.example.env
+.env.template
+.eslint*
+node_modules
+dist
+
+# Docker
+Dockerfile
+*.Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Others
+integrationtests
+loadtests
+
+# Project
+/.temp
+/.vscode
+/deploy
+/docker
+/docs
+/sh
+/test
+/tool
+LICENSE
+README.md
+*.code-workspace
